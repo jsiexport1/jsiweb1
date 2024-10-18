@@ -1,101 +1,163 @@
+"use client";
+import { ImagesSliderDemo } from "@/components/ImageSlider";
+import { Navbar } from "@/components/Navbar";
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { IoIosCall } from "react-icons/io";
+import { IoIosMail } from "react-icons/io";
+import { AnimatedModalDemo } from "@/components/AnimatedModal";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
+  const [is06BW, setIs06BW] = useState(false);
+  const [is04BW, setIs04BW] = useState(false);
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <div>
+      <a href="https://wa.me/919555625069" target="_blank" className="text-white fixed z-50 md:mt-[85vh] md:ml-[195vh] mt-[80vh] ml-[35vh] bg-[#25d366] cursor-pointer rounded-full font-semibold p-3">
+        <FaWhatsapp className="text-3xl" />
+      </a>
+      <Navbar />
+      <section id="home" className="z-10 text-white pt-20 md:pt-0">
+          <ImagesSliderDemo />
+      </section>
+      <section id="collections" className="pt-16">
+        <h1 className="text-4xl font-semibold text-center mb-12 text-[#98572b]">Our Collections</h1>
+        <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5">
+          <div className="col-span-1 bg-white rounded-lg px-5">
             <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/images/5.jpg"
+              alt="Vercel Logo"
+              className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+              width={200}
+              height={200}
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <p className="font-semibold text-lg text-center">JS/012</p>
+            <div className="pb-4 pt-2">
+              <AnimatedModalDemo/>
+            </div>
+          </div>
+          <div className="col-span-1 bg-white rounded-lg px-5">
+            <Image
+              src="/images/10.jpg"
+              alt="Vercel Logo"
+              className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+              width={200}
+              height={200}
+            />
+            <p className="font-semibold text-lg text-center">JS/015</p>
+            <div className="pb-4 pt-2">
+              <AnimatedModalDemo/>
+            </div>
+          </div>
+          <div className="col-span-1 bg-white rounded-lg px-5">
+            <Image
+              src="/images/11.jpg"
+              alt="Vercel Logo"
+              className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+              width={200}
+              height={200}
+            />
+            <p className="font-semibold text-lg text-center">JS/018</p>
+            <div className="pb-4 pt-2">
+              <AnimatedModalDemo/>
+            </div>
+          </div>
+          <div className="col-span-1 bg-white rounded-lg px-5">
+            <Image
+              src="/images/8.jpg"
+              alt="Vercel Logo"
+              className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+              width={200}
+              height={200}
+            />
+            <p className="font-semibold text-lg text-center">JS/017</p>
+            <div className="pb-4 pt-2">
+              <AnimatedModalDemo/>
+            </div>
+          </div>
+          <div className="col-span-1 bg-white rounded-lg px-5">
+            <Image
+              src="/images/6.jpg"
+              alt="Vercel Logo"
+              className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+              width={200}
+              height={200}
+            />
+            <p className="font-semibold text-lg text-center">JS/013</p>
+            <div className="pb-4 pt-2">
+              <AnimatedModalDemo/>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+      <section id="story" className="md:h-[70vh] h-[95vh] pt-12 md:pt-0">
+        <div className="h-[100vh] flex flex-col-reverse justify-center md:grid md:grid-cols-2 md:items-center md:gap-16 px-5 md:px-24">
+          <div className="col-span-1 text-left md:text-left mt-10 md:mt-0">
+              <div>
+                <span className="text-3xl">WHAT WE WORK</span>
+                <div className="w-40 border-b-2 h-5 border-gray-300"></div>
+                <div className="mt-5">
+                   <h1 className="text-xl font-semibold">Top-notch Quality</h1>
+                   <p className="text-gray-700 text-sm pt-2">
+                    With a worldwide network of tanneries, <br /> we manufacture the finest quality leather products.
+                   </p>
+                   <h1 className="text-xl font-semibold pt-3">Handcrafted Construction</h1>
+                   <p className="text-gray-700 text-sm pt-2">
+                    All the leather products are made by <br /> our experienced and skilled craftsmen.
+                   </p>
+                   <h1 className="text-xl font-semibold pt-3">Extensive Collection</h1>
+                   <p className="text-gray-700 text-sm pt-2">
+                   We manufacture and export a wide collection of <br /> leather products, each with its unique design and features.
+                   </p>
+                </div>
+              </div>
+          </div>
+          <div className="col-span-1">
+            <Image
+              src="/images/man.jpg"
+              alt="Vercel Logo"
+              className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+              width={700}
+              height={700}
+            />
+          </div>
+        </div>
+      </section>
+      <section id="contact" className="h-[70vh] pt-40">
+        <div className="md:text-center pl-6 md:pl-0">
+          <h1 className="text-[#98572b] font-semibold text-4xl">Contact Us</h1>
+          <div className="grid md:grid-cols-3 grid-cols-3 gap-5 md:justify-items-center pt-8 md:pt-12 md:px-0 items-center">
+            <a href="tel:+919555625069" target="_blank" className="text-[#98572b] cursor-pointer flex md:flex-col flex-row items-center col-span-3 md:col-span-1 rounded-full font-semibold text-xl pt-4 pb-3">
+              <IoIosCall className="md:text-8xl text-4xl mr-1" />
+              <p className="md:pt-4">
+                 +91 9555625069
+              </p>
+            </a>
+            <a href="mailto:info@jsiexport.com" target="_blank" className="text-[#98572b] cursor-pointer flex md:flex-col flex-row items-center col-span-3 md:col-span-1 rounded-full font-semibold text-xl pt-4 pb-3">
+              <IoIosMail className="md:text-8xl text-4xl mr-1" />
+              <p className="md:pt-4">
+                info@jsiexport.com
+              </p>
+            </a>
+            <a href="https://wa.me/919555625069" target="_blank" className="text-[#98572b] cursor-pointer flex md:flex-col flex-row items-center col-span-3 md:col-span-1 rounded-full font-semibold text-xl pt-4 pb-3">
+              <FaWhatsapp className="md:text-8xl text-4xl mr-1" />
+              <p className="md:pt-4" >
+                +91 9555625069
+              </p>
+            </a>
+          </div>
+        </div>
+        <footer className="bg-[#98572b] md:px-24 text-center py-4 mt-32">
+            <p className="text-sm text-white">
+            © 2024, J. S. Industries, All rights reserved.
+            </p>
+        </footer>
+      </section>
     </div>
   );
 }
