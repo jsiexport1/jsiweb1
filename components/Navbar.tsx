@@ -44,9 +44,9 @@ export const Navbar = () => {
                 <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
                         <a href="/" className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-white" aria-current="page">Home</a>
-                        <a href="#collections" className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-white">Collections</a>
+                        <a href="/collections" className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-white">Collections</a>
                         <a href="/about" className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-white">About</a>
-                        <a href="#contact" className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-white">Contact</a>
+                        <a href="/contact" className="rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-white">Contact</a>
                     </div>
                 </div>
             </div>
@@ -55,9 +55,9 @@ export const Navbar = () => {
     <div className={`sm:hidden ${isMenu ? "block" : "hidden"} bg-zinc-900 pb-4"`}>
       <div className="space-y-1 px-2 pb-3 pt-2 transition-all duration-300">
         <a href="/" onClick={()=>setIsMenu(false)} className="block rounded-md px-5 py-2 text-base font-medium text-gray-300 hover:text-white" aria-current="page">Home</a>
-        <a href="#collections" onClick={()=>setIsMenu(false)} className="block rounded-md px-5 py-2 text-base font-medium text-gray-300 hover:text-white">Collections</a>
+        <a href="/collections" onClick={()=>setIsMenu(false)} className="block rounded-md px-5 py-2 text-base font-medium text-gray-300 hover:text-white">Collections</a>
         <a href="/about" onClick={()=>setIsMenu(false)} className="block rounded-md px-5 py-2 text-base font-medium text-gray-300 hover:text-white">About</a>
-        <a href="#contact" onClick={()=>setIsMenu(false)} className="block rounded-md px-5 py-2 text-base font-medium text-gray-300 hover:text-white">Contact</a>
+        <a href="/contact" onClick={()=>setIsMenu(false)} className="block rounded-md px-5 py-2 text-base font-medium text-gray-300 hover:text-white">Contact</a>
       </div>
     </div>
   </nav>
