@@ -12,6 +12,7 @@ import { IoIosMail } from "react-icons/io";
 import { AnimatedModalDemo } from "@/components/AnimatedModal";
 import Image from "next/image";
 import { useState } from "react";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   const [is06BW, setIs06BW] = useState(false);
@@ -152,11 +153,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <footer className="bg-[#98572b] md:px-24 text-center py-4 mt-32">
-            <p className="text-sm text-white">
-            © 2024, J. S. Industries, All rights reserved.
-            </p>
-        </footer>
+        <Footer />
       </section>
     </div>
   );
