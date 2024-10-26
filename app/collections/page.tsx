@@ -16,173 +16,13 @@ const About = ()=>{
                 <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5">
                     <div className="col-span-1 bg-white rounded-lg px-5">
                         <Image
-                        src="/images/1.jpg"
+                        src="/images/15.png"
                         alt="Vercel Logo"
                         className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
                         width={200}
                         height={200}
                         />
-                        <p className="font-semibold text-lg text-center">JS/012</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/2.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/015</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/3.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/018</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/4.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/017</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/5.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/013</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                </div>
-                <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5 mt-16">
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/6.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/012</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/7.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/015</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/8.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/018</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/9.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/017</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/10.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/013</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                </div>
-                <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5 mt-16">
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/11.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/012</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/12.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/015</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/13.jpg"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/018</p>
+                        <p className="font-semibold text-lg text-center">JS/01</p>
                         <div className="pb-4 pt-2">
                         <AnimatedModalDemo/>
                         </div>
@@ -195,26 +35,11 @@ const About = ()=>{
                         width={200}
                         height={200}
                         />
-                        <p className="font-semibold text-lg text-center">JS/017</p>
+                        <p className="font-semibold text-lg text-center">JS/02</p>
                         <div className="pb-4 pt-2">
                         <AnimatedModalDemo/>
                         </div>
                     </div>
-                    <div className="col-span-1 bg-white rounded-lg px-5">
-                        <Image
-                        src="/images/15.png"
-                        alt="Vercel Logo"
-                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-                        width={200}
-                        height={200}
-                        />
-                        <p className="font-semibold text-lg text-center">JS/013</p>
-                        <div className="pb-4 pt-2">
-                        <AnimatedModalDemo/>
-                        </div>
-                    </div>
-                </div>
-                <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5 mt-16">
                     <div className="col-span-1 bg-white rounded-lg px-5">
                         <Image
                         src="/images/16.png"
@@ -223,33 +48,48 @@ const About = ()=>{
                         width={200}
                         height={200}
                         />
-                        <p className="font-semibold text-lg text-center">JS/012</p>
+                        <p className="font-semibold text-lg text-center">JS/03</p>
                         <div className="pb-4 pt-2">
                         <AnimatedModalDemo/>
                         </div>
                     </div>
                     <div className="col-span-1 bg-white rounded-lg px-5">
                         <Image
-                        src="/images/17.png"
+                        src="/images/21.png"
                         alt="Vercel Logo"
                         className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
                         width={200}
                         height={200}
                         />
-                        <p className="font-semibold text-lg text-center">JS/015</p>
+                        <p className="font-semibold text-lg text-center">JS/04</p>
                         <div className="pb-4 pt-2">
                         <AnimatedModalDemo/>
                         </div>
                     </div>
                     <div className="col-span-1 bg-white rounded-lg px-5">
                         <Image
-                        src="/images/18.png"
+                        src="/images/4.jpg"
                         alt="Vercel Logo"
                         className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
                         width={200}
                         height={200}
                         />
-                        <p className="font-semibold text-lg text-center">JS/018</p>
+                        <p className="font-semibold text-lg text-center">JS/05</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                </div>
+                <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5 mt-16">
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/22.JPG"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/06</p>
                         <div className="pb-4 pt-2">
                         <AnimatedModalDemo/>
                         </div>
@@ -262,7 +102,20 @@ const About = ()=>{
                         width={200}
                         height={200}
                         />
-                        <p className="font-semibold text-lg text-center">JS/017</p>
+                        <p className="font-semibold text-lg text-center">JS/07</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/18.png"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/08</p>
                         <div className="pb-4 pt-2">
                         <AnimatedModalDemo/>
                         </div>
@@ -275,7 +128,195 @@ const About = ()=>{
                         width={200}
                         height={200}
                         />
+                        <p className="font-semibold text-lg text-center">JS/09</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/17.png"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/010</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                </div>
+                <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5 mt-16">
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/23.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/011</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/5.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/012</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/6.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
                         <p className="font-semibold text-lg text-center">JS/013</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/7.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/014</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/10.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/015</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                </div>
+                <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5 mt-16">
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/9.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/016</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/8.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/017</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/11.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/018</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/13.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/019</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/12.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/020</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                </div>
+                <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5 mt-16">
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/3.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/021</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/2.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/022</p>
+                        <div className="pb-4 pt-2">
+                        <AnimatedModalDemo/>
+                        </div>
+                    </div>
+                    <div className="col-span-1 bg-white rounded-lg px-5">
+                        <Image
+                        src="/images/1.jpg"
+                        alt="Vercel Logo"
+                        className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
+                        width={200}
+                        height={200}
+                        />
+                        <p className="font-semibold text-lg text-center">JS/023</p>
                         <div className="pb-4 pt-2">
                         <AnimatedModalDemo/>
                         </div>
