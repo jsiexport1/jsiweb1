@@ -28,70 +28,113 @@ export default function Home() {
       </section>
       <section id="collections" className="pt-16">
         <h1 className="text-4xl font-semibold text-center mb-12 text-[#98572b]">Our Collections</h1>
-        <div className="md:grid md:grid-cols-2 lg:grid-cols-5 md:mx-24 items-center gap-16 mx-5">
-          <div className="col-span-1 bg-white rounded-lg px-5">
+        <div className="md:grid md:grid-cols-2 lg:grid-cols-4 md:mx-24 items-center gap-8 mx-5">
+          <div className="col-span-1 bg-white rounded-lg px-5 pb-4">
             <Image
               src="/images/5.jpg"
               alt="Vercel Logo"
-              className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-              width={200}
-              height={200}
+              className="rounded-xl"
+              width={265}
+              height={265}
             />
-            <p className="font-semibold text-lg text-center">JS/012</p>
-            <div className="pb-4 pt-2">
-              <AnimatedModalDemo/>
+            <div className="flex gap-3">
+              <div>
+                <p className="font-semibold text-base text-gray-700">Design No:</p>
+                <p className="font-semibold text-base text-gray-700">Leather:</p>
+                <p className="font-semibold text-base text-gray-700">Buckle:</p>
+                <p className="font-semibold text-base text-gray-700">Width:</p>
+                <p className="font-semibold text-base text-gray-700">Colour:</p>
+                <p className="font-semibold text-base text-gray-700">Design:</p>
+              </div>
+              <div>
+                <p className="text-base text-gray-700">JS/012</p>
+                <p className="text-base text-gray-700">Dye Finish</p>
+                <p className="text-base text-gray-700">Nickle Shiny Finish</p>
+                <p className="text-base text-gray-700">40 mm</p>
+                <p className="text-base text-gray-700">Yeloow</p>
+                <p className="text-base text-gray-700">Casual Belt</p>
+              </div>
             </div>
           </div>
-          <div className="col-span-1 bg-white rounded-lg px-5">
+          <div className="col-span-1 bg-white rounded-lg px-5 pb-4">
             <Image
               src="/images/10.jpg"
               alt="Vercel Logo"
               className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-              width={200}
-              height={200}
+              width={265}
+              height={265}
             />
-            <p className="font-semibold text-lg text-center">JS/015</p>
-            <div className="pb-4 pt-2">
-              <AnimatedModalDemo/>
+            <div className="flex gap-3">
+              <div>
+                <p className="font-semibold text-base text-gray-700">Design No:</p>
+                <p className="font-semibold text-base text-gray-700">Leather:</p>
+                <p className="font-semibold text-base text-gray-700">Buckle:</p>
+                <p className="font-semibold text-base text-gray-700">Width:</p>
+                <p className="font-semibold text-base text-gray-700">Colour:</p>
+                <p className="font-semibold text-base text-gray-700">Design:</p>
+              </div>
+              <div>
+                <p className="text-base text-gray-700">JS/015</p>
+                <p className="text-base text-gray-700">Dye Finish</p>
+                <p className="text-base text-gray-700">Powder Coated Finish</p>
+                <p className="text-base text-gray-700">35 mm</p>
+                <p className="text-base text-gray-700">Maroon</p>
+                <p className="text-base text-gray-700">Formal Belt</p>
+              </div>
             </div>
           </div>
-          <div className="col-span-1 bg-white rounded-lg px-5">
+          <div className="col-span-1 bg-white rounded-lg px-5 pb-4">
             <Image
               src="/images/11.jpg"
               alt="Vercel Logo"
               className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-              width={200}
-              height={200}
+              width={265}
+              height={265}
             />
-            <p className="font-semibold text-lg text-center">JS/018</p>
-            <div className="pb-4 pt-2">
-              <AnimatedModalDemo/>
+            <div className="flex gap-3">
+              <div>
+                <p className="font-semibold text-base text-gray-700">Design No:</p>
+                <p className="font-semibold text-base text-gray-700">Leather:</p>
+                <p className="font-semibold text-base text-gray-700">Buckle:</p>
+                <p className="font-semibold text-base text-gray-700">Width:</p>
+                <p className="font-semibold text-base text-gray-700">Colour:</p>
+                <p className="font-semibold text-base text-gray-700">Design:</p>
+              </div>
+              <div>
+                <p className="text-base text-gray-700">JS/018</p>
+                <p className="text-base text-gray-700">Dye Finish</p>
+                <p className="text-base text-gray-700">Powder Coated Finish</p>
+                <p className="text-base text-gray-700">35 mm</p>
+                <p className="text-base text-gray-700">Maroon</p>
+                <p className="text-base text-gray-700">Casual Belt</p>
+              </div>
             </div>
           </div>
-          <div className="col-span-1 bg-white rounded-lg px-5">
+          <div className="col-span-1 bg-white rounded-lg px-5 pb-4">
             <Image
               src="/images/8.jpg"
               alt="Vercel Logo"
               className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-              width={200}
-              height={200}
+              width={265}
+              height={265}
             />
-            <p className="font-semibold text-lg text-center">JS/017</p>
-            <div className="pb-4 pt-2">
-              <AnimatedModalDemo/>
-            </div>
-          </div>
-          <div className="col-span-1 bg-white rounded-lg px-5">
-            <Image
-              src="/images/6.jpg"
-              alt="Vercel Logo"
-              className="rounded-xl md:col-span-1 col-span-3 md:justify-self-start"
-              width={200}
-              height={200}
-            />
-            <p className="font-semibold text-lg text-center">JS/013</p>
-            <div className="pb-4 pt-2">
-              <AnimatedModalDemo/>
+            <div className="flex gap-3">
+              <div>
+                <p className="font-semibold text-base text-gray-700">Design No:</p>
+                <p className="font-semibold text-base text-gray-700">Leather:</p>
+                <p className="font-semibold text-base text-gray-700">Buckle:</p>
+                <p className="font-semibold text-base text-gray-700">Width:</p>
+                <p className="font-semibold text-base text-gray-700">Colour:</p>
+                <p className="font-semibold text-base text-gray-700">Design:</p>
+              </div>
+              <div>
+                <p className="text-base text-gray-700">JS/017</p>
+                <p className="text-base text-gray-700"> Dye Finish</p>
+                <p className="text-base text-gray-700">Black Shiny Finish</p>
+                <p className="text-base text-gray-700">35 mm</p>
+                <p className="text-base text-gray-700">Grey</p>
+                <p className="text-base text-gray-700">Casual Belt</p>
+              </div>
             </div>
           </div>
         </div>
